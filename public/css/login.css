@@ -1,0 +1,72 @@
+body {
+    background-color: #f6f6f6;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+}
+
+.bg{
+    position: relative;
+    width: auto;
+    height: 1040px;
+    background-image: url('../image/BG-Login.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+div div.row{
+    height: 150px;
+}
+
+div div div.footer{
+    margin-top: 120px;
+}
+
+div div div div h1{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+div div div .img-background{
+    margin: 0 25%;
+    width: 500px;
+    height: 600px;
+}
+
+div div div .login{
+    /* width: 480px; */
+    border-radius: 12px;
+}
+
+div div div div form h1{
+    font-size: 32px;
+}
+
+div div div div form h2{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+div div div div form div .captcha{
+    background-color: #D6E4FF;
+}
+
+div div div div form div input{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+div div div div form div a{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-login{
+    background: #6145E3 !important;
+    width: 80%;
+    height: 64px;
+}

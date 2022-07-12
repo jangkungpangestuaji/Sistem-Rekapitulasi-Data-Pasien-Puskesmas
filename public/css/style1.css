@@ -1,0 +1,303 @@
+body {
+    max-width: 1000px;
+    background-color: #f6f6f6;
+    font-family: "Poppins";
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+.container {
+    position: relative;
+    left: 18px;
+    height: 1024px;
+}
+
+/* Layout */
+
+.left {
+    position: absolute;
+    width: 280px;
+    left: 0px;
+    background-color: #6145e3;
+}
+
+.center {
+    position: absolute;
+    left: 304px;
+}
+
+.l-right {
+    position: relative;
+    left: 304px;
+}
+
+.right {
+    position: absolute;
+    width: 348px;
+    left: 1044px;
+}
+
+/* Navbar */
+body {
+    font-family: "Poppins";
+}
+
+.border-bottom {
+    border: 5px 0px 0px 0px solid #ffffff;
+}
+
+.side-bar {
+    background-color: #6145e3;
+    color: #ffffff;
+    width: 280px;
+    height: 95.5%;
+    border-radius: 12px;
+    position: fixed;
+    top: 0;
+    left: 20;
+    overflow: auto;
+}
+
+.side-bar .menu {
+    width: 100%;
+}
+
+.side-bar .menu .item {
+    position: relative;
+    cursor: pointer;
+}
+
+.side-bar .menu .item a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+
+.side-bar .menu .item .list-group-item {
+    color: #6145e3;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+
+.side-bar .menu .item .list-group-item:hover {
+    color: white;
+    background-color: #9e98b8;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+
+.side-bar .menu .item a:hover {
+    background: #ffffff17;
+    transform: 0.3s ease;
+}
+.side-bar .menu .item img {
+    margin-right: 15px;
+}
+.side-bar .menu .item i {
+    margin-right: 24px;
+}
+.side-bar .menu .item a .dropdown {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+.side-bar .menu .item .sub-menu {
+    background: rgba(255, 255, 255, 0.1);
+    display: none;
+}
+.side-bar .menu .item .sub-menu a {
+    padding-left: 40px;
+}
+
+.bg-menu {
+    background-image: url("../image/BG-Menu.png");
+    position: absolute;
+    width: 248px;
+    height: 100px;
+}
+
+.icon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 12px;
+    top: 10px;
+}
+
+.icon img {
+    margin: auto;
+    padding: 25px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Tabel */
+
+.content {
+    width: 990px;
+}
+
+.content-body {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.table a {
+    position: relative;
+    left: 670px;
+}
+
+th {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.head-tbl {
+    font-size: 12px;
+}
+
+td {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.td-group {
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 90px;
+    width: 700px;
+    background-color: #f6f6f6;
+}
+
+.td-groupe {
+    border-style: none;
+    border-radius: 5px;
+    width: 680px;
+    margin-left: 30px;
+    background-color: #f6f6f6;
+}
+
+.td-saran {
+    margin-left: 55px;
+}
+
+.border-line {
+    border: 2px solid #cacaca;
+}
+
+.border-radius {
+    border-radius: 12px;
+}
+
+.line-h {
+    position: absolute;
+    width: 240px;
+    height: 1px;
+    left: 20px;
+    top: 210.38px;
+    background: #ffffff;
+}
+
+/* Style */
+
+.font-bold {
+    font-weight: bold;
+}
+
+/* color */
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-neutral-100 {
+    background: #f6f6f6;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.color-primary {
+    color: #ffffff;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-grey {
+    color: #515151;
+}
+
+.text-purple {
+    color: #6145e3;
+}
+
+/* Neutral / 500 */
+.color-neutral-500 {
+    color: #515151;
+}
+
+/* Neutral / 400 */
+.color-neutral-400 {
+    color: #969696;
+}
+
+/* forgot pw */
+.form-group a {
+    font-size: 12px;
+    position: absolute;
+    left: 850px;
+}
+
+.btn {
+    width: 300px;
+    height: 55px;
+    border-radius: 16px;
+}
+
+.btn-simpan {
+    width: 300px;
+    height: 55px;
+    background-color: #6145e3;
+    color: white;
+    border-style: none;
+    border-radius: 16px;
+    right: 0px;
+}
+
+.btn-purple {
+    background-color: #6145e3 !important;
+}
+
+.tmbl {
+    border-style: none;
+}
